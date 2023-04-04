@@ -27,4 +27,5 @@ Agents are just a way to store things in elixir that last for longer that the fu
 Here are some useful docs / tutorials ->
 
 [Elixir Docs](https://elixir-lang.org/getting-started/mix-otp/agent.html)
+
 [Hex Docs](https://hexdocs.pm/elixir/1.12/Agent.html)
