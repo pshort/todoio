@@ -9,6 +9,17 @@ no way to know if its us, or the items, or our organization skills or what? What
 
 We want to just store 1 list of todos in memory. Who needs more than that?
 
+## First steps
+
+I know I forgot to do something but as I havent finished this todo app Im not sure what it is....
+Maybe running
+
+``` bash
+mix test
+```
+
+will give us a clue.
+
 ## Agent useful info
 
 Agents are just a way to store things in elixir that last for longer that the function does.
