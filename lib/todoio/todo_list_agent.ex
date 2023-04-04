@@ -15,27 +15,15 @@ defmodule Todoio.TodoListAgent do
   end
 
   def get_list(list_pid) do
-    Agent.get(list_pid, &(&1))
   end
 
   def add_item(list_pid, description) do
-    new_item = [%{text: description, complete: false}]
-    Agent.update(list_pid, &Enum.concat(&1, new_item))
   end
 
   def complete_item(list_pid, text) do
-    Agent.update(list_pid, &Enum.map(&1, fn item ->
-      case item.text == text do
-        true -> Map.put(item, :complete, true)
-        false -> item
-      end
-    end))
   end
 
   def remove_item(list_pid, text) do
-    Agent.update(list_pid, &Enum.filter(&1, fn item ->
-      item.text != text
-    end))
   end
 
 end
