@@ -29,3 +29,7 @@ Here are some useful docs / tutorials ->
 [Elixir Docs](https://elixir-lang.org/getting-started/mix-otp/agent.html)
 
 [Hex Docs](https://hexdocs.pm/elixir/1.12/Agent.html)
+
+Agents use **anonymous functions** (lambda functions in other languages)
+
+[Anonymous Functions](https://elixirschool.com/en/lessons/basics/functions/#anonymous-functions-0)
