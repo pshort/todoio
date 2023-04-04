@@ -1,18 +1,19 @@
 # Todoio
 
-To start your Phoenix server:
+## We have the urgent need of a Todo app!
 
-  * Install dependencies with `mix deps.get`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+This is no laughing matter - items are not getting done and we have :wq
+no way to know if its us, or the items, or our organization skills or what? What we do know is we need this ASAP!
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## This app has no DB
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+We want to just store 1 list of todos in memory. Who needs more than that?
 
-## Learn more
+## Agent useful info
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Agents are just a way to store things in elixir that last for longer that the function does.
+
+Here are some useful docs / tutorials ->
+
+[Elixir Docs](https://elixir-lang.org/getting-started/mix-otp/agent.html)
+[Hex Docs](https://hexdocs.pm/elixir/1.12/Agent.html)
